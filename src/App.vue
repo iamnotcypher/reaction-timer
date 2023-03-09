@@ -1,15 +1,18 @@
 <template>
   <h1>Ninja Reaction Timer</h1>
   <button @click="start">play</button>
+  <Block v-if="isPlaying" />
 </template>
 
 <script>
+import Block from './components/Block'
+
 export default {
   name: "App",
-  components: {},
+  components: { Block },
   data() {
     return {
-      isPlaying: false,
+      isPlaying: true,
       delay: null
     }
   },
