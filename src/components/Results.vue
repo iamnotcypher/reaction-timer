@@ -1,7 +1,5 @@
 <template>
-  <div class="reaction-time">
-    <p>Reaction time: {{ score }}ms</p>
-  </div>
+  <p>Reaction time: {{ score }}ms</p>
 </template>
 
 <script>
