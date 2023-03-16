@@ -53,6 +53,7 @@ button {
   letter-spacing: 2px;
   cursor: pointer;
   margin: 10px;
+  border-radius: 3px;
 }
 button[disabled] {
   opacity: 0.2;
